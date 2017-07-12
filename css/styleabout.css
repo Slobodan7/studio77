@@ -1,0 +1,35 @@
+body{background-size: cover;position: relative;margin: 0px;}
+
+header{display: flex;align-items: center;justify-content: space-between;background-color: black;
+}
+a{justify-content: flex-end;color: white;text-decoration: none;padding: 0px 0px 0px 39px;align-items: center;}
+
+.logo{font-family: 'Dancing Script', cursive;color: green;font-size: 39px;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+.active {
+    background-color: #111;
+}
+
+/*@first-child{flex: 1;border: 1px;color: green}*/
